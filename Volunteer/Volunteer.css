@@ -1,0 +1,37 @@
+.volunteerContainer{
+    height: 280px;
+    width: 90%;
+    background-color: yellow;
+    margin: auto;
+    position: relative;
+    top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.volunteerContainer h1{
+    font-size: 3.4rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.volunteerContainer p{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.volunteerContainer button{
+    height: 69px;
+    width: 145px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    margin-top: 15px;
+
+}
+.volunteerContainer a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}

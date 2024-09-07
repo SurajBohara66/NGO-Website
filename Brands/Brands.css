@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.brandContainer{
+    height: 200px;
+    width: 100%;
+ 
+    display: flex;
+}
+.express{
+    height: 176px;
+    width: 327px;
+}
+.brandImg{
+    height: 176px;
+    width: 243px;
+    margin: 10px 6px ;
+}
+.brandContainer img{
+    filter: grayscale(100%);
+}
+.brandContainer img:hover{
+    filter: grayscale(0%)
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+   
+    color: black;
+    display: flex;
+    z-index: 5;
+    border-bottom: 1px solid black;
+}
+.logo{
+    height: 70px;
+    width: 120px;
+
+    position: relative;
+    left: 10px;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 6px;
+    left: 34px;
+}
+.linkContainer{
+    height: 70px;
+    width: 535px;
+    overflow: hidden;
+    position: absolute;
+    right: 52px;
+    display: flex;
+}
+.linkContainer ul{
+    display: flex;
+}
+.linkContainer ul li{
+ list-style: none;
+ margin: 10px 22px;
+ font-size: 24px;
+ position: relative;
+ top: 7px;
+}
+.linkContainer ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.links:hover{
+    color: rgb(80, 79, 79);
+  
+}
+.btnContainer{
+    height: 70px;
+    width: 150px;
+ position: relative;
+ top: 7px;
+margin-left: 10px;
+}
+.donateBtn{
+    height: 45px;
+    width: 110px;
+    font-size: 24px;
+    margin: auto;
+    background-color: yellowgreen;
+    border: none;
+}
+.donateBtn:hover{
+    border: 1px solid black;
+}

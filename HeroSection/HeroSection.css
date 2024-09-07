@@ -1,0 +1,57 @@
+.heroContianer{
+    height: 500px;
+    width: 100%;
+
+}
+.heroContianer::before{
+    content: "";
+    height: 570px;
+    width: 100%;
+    position: absolute;
+    background-image: url(../Assets/poorkid.jpg ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+  z-index: -1;
+ opacity: 0.83;
+}
+.mainTxt{
+    height: 300px;
+    width: 600px;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 13%;
+    display: flex;
+    flex-direction: column;
+}
+.introTxt p{
+font-size: 4.7rem;
+font-weight: bold;
+}
+.mainBtns p{
+    margin-top: 9px;
+}
+.introBtns{
+    display: flex;
+    height: 180px;
+    width: 100%;
+ 
+}
+.introBtns button{
+    height: 59px;
+    width: 111px;
+    border: none;
+    margin: 3px 10px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 9px;
+}
+.heroDonate{
+    background-color: yellowgreen;
+}
+.introBtns button:hover{
+    border: 1px solid black;
+}
